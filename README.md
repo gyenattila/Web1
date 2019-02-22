@@ -17,11 +17,18 @@
 [W3Schools.com](https://www.w3schools.com) - elérhető HTML, XHTML, CSS és JS tutoriálok interaktív példákkal.  
 ___
 
+#### HTML5 & CSS3 YouTube tutorial
+[HTML5](https://www.youtube.com/watch?v=kDyJN7qQETA)
+[CSS3](https://www.youtube.com/watch?v=CUxH_rWSI1k)
+
+___
+
 ```
 <!DOCTYPE html>
-<html lang="en">    
+<html>    
 <head>
 <meta charset="UTF-8">
+<meta lang="en">
 <title>*Insert a funny title here*</title>
 </head>
 <body>
