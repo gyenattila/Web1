@@ -18,7 +18,7 @@
 ___
 
 #### HTML5 & CSS3 YouTube tutorial
-[HTML5](https://www.youtube.com/watch?v=kDyJN7qQETA)
+[HTML5](https://www.youtube.com/watch?v=kDyJN7qQETA)  
 [CSS3](https://www.youtube.com/watch?v=CUxH_rWSI1k)
 
 ___
