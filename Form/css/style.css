@@ -1,0 +1,117 @@
+body
+{
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+.inputField
+{
+	width: 400px;
+	height: 25px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px 0;
+	margin: 0 auto;
+}
+
+.inputField:focus
+{
+	border: 2px solid dodgerblue;
+	outline: none;
+	transition: all 0.3s ease;
+	width: 450px;
+}
+
+.title
+{
+	margin-top: 30px;
+	width: 455px;
+	height: 40px;
+	padding-bottom: 20px;	
+}
+
+.headerHT
+{
+	color: dodgerblue;
+	background-color: white;
+	padding-top: 10px;
+	height: 29px;
+	text-align: center;
+	border: 1px double dodgerblue;
+}
+
+.icon {
+	padding: 10px;
+	background: dodgerblue;
+	color: white;
+	font-size: 20px;
+	min-width: 20px;
+	text-align: center;
+	float: left;
+}
+
+.submitBtn, .resetBtn
+{
+	background-color: dodgerblue;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+	width: 500px;
+	opacity: 0.9;
+	font-size: 20px;
+}
+
+.resetBtn
+{
+	background-color: red;
+}
+
+.submitBtn:hover, .resetBtn:Hover
+{
+	opacity: 1;
+}
+
+form
+{
+	width: 500px;
+	margin-top: 0px;
+	margin-left: 200px;
+}
+
+legend > h2
+{
+	color: dodgerblue;
+	text-shadow: 1px 1px 8px black;
+}
+
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+#myBtn:hover {
+	background-color: #555;
+}
+
+
+.radioBtn, .checkBoxText, h1
+{
+	color: white;
+}
