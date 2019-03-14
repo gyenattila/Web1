@@ -1,0 +1,28 @@
+body
+{
+  margin: 0px;
+}
+
+video
+{
+  height: 400px;
+  width: 600px;
+}
+
+.video_audio
+{
+  height: 500px;
+  width: 100%;
+}
+
+.iframe
+{
+  height: 400px;
+  width: 100%;
+}
+
+.iframe > iframe
+{
+  height: 400px;
+  width: 49%;
+}
