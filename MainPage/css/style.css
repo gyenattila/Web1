@@ -74,19 +74,18 @@ ul > li:hover > ul > li
 }
 
 
-/**************************************
- *******                      *********
- *******    NAVIGATION END    *********
- *******					  *********
- *************************************/
+/*************************************
+*******                      *********
+*******    NAVIGATION END    *********
+*******					     *********
+*************************************/
 
- #mainBody
- {
- 	width: 1010px;
- 	height: 900px;
- 	opacity: .8;
- 	
- }
+#mainBody
+{
+	width: 1010px;
+	height: 900px;
+	opacity: .8;
+}
 
 .left,
 .right
@@ -96,19 +95,10 @@ ul > li:hover > ul > li
 	background-color: black;
 	color: white;
 	text-align: justify;
-	overflow: hidden;
-
 }
 
-.left > p 
-{
-	margin-right: 30px;
-}
-
-.right > p
-{
-	margin-left: 30px;
-}
+.left > p { margin-right: 30px; }
+.right > p { margin-left: 30px; }
 
 .leftPicture,
 .rightPicture
@@ -137,21 +127,22 @@ ul > li:hover > ul > li
 
 table 
 {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  color: white;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	color: white;
 }
 
 td, th, caption 
 {
-  text-align: center;
-  padding: 8px;
+	text-align: center;
+	padding: 8px;
 }
 
 tr:nth-child(even),
-thead {
-  background-color: #dddddd;
+thead 
+{
+	background-color: #dddddd;
 }
 
 tr:nth-child(even),
@@ -164,11 +155,3 @@ thead
 {
 	background-color: black;
 }
-
-
-
-
-
-
-
-
