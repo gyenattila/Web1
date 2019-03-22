@@ -15,6 +15,13 @@
 
 ##### Nem hivatalos tananyag
 [W3Schools.com](https://www.w3schools.com) - elérhető HTML, XHTML, CSS és JS tutoriálok interaktív példákkal.  
+
+[HTML attribútumok leírással](https://www.w3schools.com/tags/ref_attributes.asp) - beadandó során hasznos lehet, attribútumok részletes leírással + interaktív kód. 
+
+[Validátor](https://validator.w3.org/#validate_by_upload+with_options) - ```More Options``` alatt betudjátok állítani, hogy milyen dokumentim típust szeretnétek validálni.  
+
+
+[XHTML](https://www.w3schools.com/HTML/html_xhtml.asp) - konveciók, melyekre figyelni kell beadandó írás során.
 ___
 
 #### HTML5 & CSS3 YouTube tutorial
