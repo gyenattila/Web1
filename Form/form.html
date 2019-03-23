@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML5, CSS3, WEB Form, JavaScript" />
+    <meta name="author" content="Attila Gyen" />
+    <meta name="description" content="Simply Web Form">
 
     <title>Form</title>
 
@@ -13,14 +17,14 @@
   <body>
     <div id="mainDiv">
       <form action="mailto:sajat.email.cim@gmail.com" method="post" name="form" enctype="text/plain">
-        <center>
           <h1>Form</h1>
-        </center>
         <fieldset>
-          <legend><h2>Personal information</h2></legend>
+          <legend>Personal information</legend>
           <div class="title">
             <i class="fa fa-user icon"></i>
-            <h3 class="headerHT">First name</h3>
+            <h3 class="headerHT">
+              <label>First name</label>
+            </h3> <!--end of FirstName headerHT-->
           </div> <!--end of title-->
           <input class="inputField" type="text" name="firstName" placeholder="firstname" required="required" pattern="[A-Za-z]{1,20}" title="Only chacters are allowed" maxlength="20" autofocus> 
 
@@ -28,7 +32,9 @@
 
           <div class="title">
             <i class="fa fa-user icon"></i>	
-            <h3 class="headerHT">Last name</h3>
+            <h3 class="headerHT">
+              <label>Last name</label>
+            </h3> <!--end of LastName headerHT-->
           </div> <!--end of title-->
           <input class="inputField" type="text" name="lastName" placeholder="lastname">
           
@@ -36,7 +42,9 @@
 
           <div class="title">
             <i class="fa fa-envelope icon"></i>	
-            <h3 class="headerHT">E-mail</h3>
+            <h3 class="headerHT">
+              <label>E-mail</label>
+            </h3> <!--end of EMail headerHT-->
           </div> <!--end of title-->
           <input class="inputField" type="email" name="email" placeholder="email" required="required" pattern="[a-zA-Z0-9._%+-]+@[a-z]{3,10}+\.[a-z]{2,4}$" maxlength="50">
           
@@ -44,7 +52,9 @@
 
           <div class="title">
             <i class="fa fa-key icon"></i>	
-            <h3 class="headerHT">Secret code</h3>
+            <h3 class="headerHT">
+              <label>Secret code</label>
+            </h3> <!--end of SecretCode headerHT-->
           </div> <!--end of title-->
           <input class="inputField" type="password" name="password" placeholder="secret code" pattern="[1-9]{4}" maxlength="4" required>
           
@@ -52,7 +62,9 @@
 
           <div class="title">
             <i class="fa fa-birthday-cake icon"></i>	
-            <h3 class="headerHT">Date of birth</h3>
+            <h3 class="headerHT">
+              <label>Date of birth</label>
+            </h3> <!--end of DateOfBirtd headerHT-->
           </div> <!--end of title-->
           <select name="year">
             <option value="2000">2000</option>
@@ -66,6 +78,15 @@
             <option value="2008">2008</option>
             <option value="2009">2009</option>
             <option value="2010" selected="selected">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
           </select> <!--end of year-->
 
           <select name="month">
@@ -96,6 +117,25 @@
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
           </select> <!--end of day-->
 
           <br>
@@ -103,38 +143,83 @@
 
           <div class="title">
             <i class="fa fa-transgender-alt icon"></i>
-            <h3 class="headerHT">Gender</h3>
+            <h3 class="headerHT">
+              <label>Gender</label>
+            </h3> <!--end of Gender headerHT-->
           </div> <!--end of title-->
-          <input type="radio" name="gender" value="male" checked> <span class="radioBtn">Male </span> <br>
-          <input type="radio" name="gender" value="felmale"> <span class="radioBtn">Female </span> <br>
-          <input type="radio" name="gender" value="other"><span class="radioBtn"> Other </span> <br>
+          <input type="radio" name="gender" value="male" checked="checked"> 
+          <label class="radioBtn">Male </label> 
+
+          <br>
+
+          <input type="radio" name="gender" value="felmale">
+          <label class="radioBtn">Female </label> 
+
+          <br>
+
+          <input type="radio" name="gender" value="other">
+          <label class="radioBtn"> Other </label>
+
+          <br>
         </fieldset> <!--end of "Personal information" fieldset"-->
 
         <fieldset>
-          <legend><h2>Hobby</h2></legend>
+          <legend>Hobby</legend>
           <div class="title">
             <i class="fa fa-comments icon"></i>
-            <h3 class="headerHT">Select your favourite</h3> 
+            <h3 class="headerHT">
+              <label>Select your favourite</label>
+            </h3> <!--end of SelectYourFavourite headerHT-->
           </div> <!--end of title-->
-          <input type="checkbox" name="sport" value="run" checked> <span class="checkBoxText"> Runing </span> <br>
-          <input type="checkbox" name="sport" value="highjack"> <span class="checkBoxText"> Highjacking </span> <br>
-          <input type="checkbox" name="sport" value="swim"> <span class="checkBoxText"> Swimming </span> <br>
-          <input type="checkbox" name="sport" value="bike"> <span class="checkBoxText"> Biking </span> <br>
+          <input type="checkbox" name="sport" value="run" checked="checked">
+          <label class="checkBoxText"> Runing </label> 
+
+          <br>
+
+          <input type="checkbox" name="sport" value="highjack">
+          <label class="checkBoxText"> Highjacking </label> 
+
+          <br>
+
+          <input type="checkbox" name="sport" value="swim">
+          <label class="checkBoxText"> Swimming </label>
+
+          <br>
+
+          <input type="checkbox" name="sport" value="bike">
+          <label class="checkBoxText"> Biking </label> 
+
+          <br>
 
           <div class="title">
             <i class="fa fa-comments icon"></i>
-            <h3 class="headerHT">How often do you do?</h3>
+            <h3 class="headerHT">
+              <label>How often do you do?</label>
+            </h3> <!--end of HowOften headerHT-->
           </div> <!--end of title-->
-          <input type="radio" name="activity" value="once a week" checked> <span class="radioBtn"> Once a week </span> <br>
-          <input type="radio" name="activity" value="twice a week"> <span class="radioBtn"> Twice a week </span> <br>
-          <input type="radio" name="activity" value="three or more"> <span class="radioBtn"> 3 or more times/week </span> <br>
+          <input type="radio" name="activity" value="once a week" checked="checked"> 
+          <label class="radioBtn"> Once a week </label> 
+
+          <br>
+
+          <input type="radio" name="activity" value="twice a week">
+          <label class="radioBtn"> Twice a week </label> 
+
+          <br>
+
+          <input type="radio" name="activity" value="three or more">
+          <label class="radioBtn"> 3 or more times/week </label> 
+
+          <br>
         </fieldset> <!--end of "Hobby" fieldset"-->
 
         <fieldset>
-          <legend><h2>Leave a message</h2></legend>
+          <legend>Leave a message</legend>
           <div class="title">
             <i class="fa fa-comments icon"></i>
-            <h3 class="headerHT">Note</h3>	
+            <h3 class="headerHT">
+              <label>Note</label>
+            </h3>	<!--end of Note headerHT-->
           </div> <!--end of title-->
           <textarea rows="10" cols="63" placeholder="..." name="message" maxlength="1024"></textarea> 
         </fieldset> <!--end of "Message" fieldset"-->
@@ -142,7 +227,7 @@
         <br>
 
         <input class="submitBtn" type="submit" value="Submit">
-        <input class="resetBtn"type="reset" value="Reset">
+        <input class="resetBtn" type="reset" value="Reset">
       </form> <!--end of form-->
       
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
