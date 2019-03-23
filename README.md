@@ -21,7 +21,9 @@
 [Validátor](https://validator.w3.org/#validate_by_upload+with_options) - ```More Options``` alatt betudjátok állítani, hogy milyen dokumentim típust szeretnétek validálni.  
 
 
-[XHTML](https://www.w3schools.com/HTML/html_xhtml.asp) - konveciók, melyekre figyelni kell beadandó írás során.
+[XHTML](https://www.w3schools.com/HTML/html_xhtml.asp) - konveciók, melyekre figyelni kell beadandó írás során.  
+
+[XHTML Cheet Sheet](https://www.w3.org/2010/04/xhtml10-strict.html) - XHTML 1.0 Strict Cheet Sheet
 ___
 
 #### HTML5 & CSS3 YouTube tutorial
