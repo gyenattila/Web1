@@ -85,10 +85,11 @@ form
   margin-left: 200px;
 }
 
-legend > h2
+legend
 {
   color: dodgerblue;
   text-shadow: 1px 1px 8px black;
+  font-size: 25px;
 }
 
 #myBtn 
@@ -117,5 +118,7 @@ legend > h2
 .checkBoxText,
 h1
 {
+  text-align: center;
+  text-shadow: 2px 2px 10px dodgerblue;
   color: white;
 }
