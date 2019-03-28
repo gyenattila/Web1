@@ -1,0 +1,76 @@
+body
+{
+	background-image: url("../img/indexBackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#mainBody
+{
+	width: 100%;
+	opacity: .8;	
+}
+
+.left,
+.right
+{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: justify;
+	overflow: hidden;
+}
+
+p
+{
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+.left > h1
+{
+	text-align: left;
+}
+
+.right > h1 
+{
+	text-align: right;
+}
+
+.left > p
+{
+	margin-right: 30px;
+}
+
+.right > p
+{
+	margin-left: 30px;
+}
+
+.leftPicture,
+.rightPicture
+{
+	height: 300px;
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+	transition: transform 300ms ease-in-out;
+}
+
+.left:hover > .leftPicture,
+.right:hover > .rightPicture
+{
+	transition: transform 300ms ease-in-out;
+	transform: rotate(360deg);
+	border-radius: 100px;
+}
+
+.rightPicture
+{
+	float: right;
+	margin-right: 0; 
+	margin-left: 30px;
+}
