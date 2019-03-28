@@ -1,89 +1,77 @@
 /**************************************
  *******                      *********
  *******         BODY         *********
- *******					  *********
+ *******                      *********
  *************************************/
-body
-{
-	margin: 15px auto 100px auto;
-	padding: 0;
-    font-family: Arial;
+body {
+  margin: 15px auto 100px auto;
+  padding: 0;
+  font-family: Arial;
 }
 
 /**************************************
  *******                      *********
  *******      CONTAINER       *********
- *******					  *********
+ *******                      *********
  *************************************/
-#container
-{
-	margin: 0 auto;
-	width: 60%;
-	min-width: 1000px;
+#container {
+  margin: 0 auto;
+  width: 60%;
+  min-width: 1000px;
 }
 
 /**************************************
  *******                      *********
  *******      NAVIGATION      *********
- *******					  *********
+ *******            *********
  *************************************/
-#navigation
-{
-	width: 100%;
-	position: relative;
-	z-index: 10;
-	width: 1010px;
-	height: 140px;
-	margin: 0 auto;
+#navigation {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  width: 1010px;
+  height: 140px;
+  margin: 0 auto;
 }
 
 .navigationUL,
-.navigationInnerUL
-{
-	margin: 0 auto;
-	padding: 0px;
-	list-style: none;	
+.navigationInnerUL {
+  margin: 0 auto;
+  padding: 0px;
+  list-style: none; 
 }
 
 .navigationLI,
-.navigationInnerLI 
-{
-	float: left;
-	width: 200px;
-	height: 40px;
-	background-color: white;
-	opacity: .8;
-	color: black;
-	line-height: 40px;
-	text-align: center;
-	font-size: 20px;
-	margin-right: 2px;
-	border-top: 1px solid black;
+.navigationInnerLI  {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  opacity: .8;
+  color: black;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 2px;
+  border-top: 1px solid black;
 }
 
-.navLink
-{
-	text-decoration: none;
-	color: black;
-	display: block;
+.navLink {
+  text-decoration: none;
+  color: black;
+  display: block;
 }
 
 .navLink:hover,
-.isActive
-{
-	background-color: black;
-	color: white;
+.isActive {
+  background-color: black;
+  color: white;
 }
 
-.navigationInnerLI 
-{
-	display: none;
-}
+.navigationInnerLI { display: none; }
 
-.navigationLI:hover > .navigationInnerUL > .navigationInnerLI 
-{
-	display: block;
-	top: 40px;
-	opacity: 1;
+.navigationLI:hover > .navigationInnerUL > .navigationInnerLI  {
+  display: block;
+  top: 40px;
+  opacity: 1;
 }
-
