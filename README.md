@@ -23,7 +23,11 @@
 
 [XHTML](https://www.w3schools.com/HTML/html_xhtml.asp) - konveciók, melyekre figyelni kell beadandó írás során.  
 
-[XHTML Cheet Sheet](https://www.w3.org/2010/04/xhtml10-strict.html) - XHTML 1.0 Strict Cheet Sheet
+[XHTML Cheet Sheet](https://www.w3.org/2010/04/xhtml10-strict.html) - XHTML 1.0 Strict Cheet Sheet  
+
+[Picture Resizer](http://www.picresize.com/#) - kiválasztott képeket fizikailag is le tudjátok kicsnyíteni a segítségével  
+
+[YouTube downloader](https://www.onlinevideoconverter.com/youtube-converter) - kiválasztott videó linkjének beillesztésével le tudjátok tölteni különböző formátumban a videót
 ___
 
 #### HTML5 & CSS3 YouTube tutorial
