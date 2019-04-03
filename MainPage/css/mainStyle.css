@@ -23,7 +23,7 @@ body {
 /**************************************
  *******                      *********
  *******      NAVIGATION      *********
- *******            *********
+ *******                      *********
  *************************************/
 #navigation {
   width: 100%;
@@ -68,10 +68,26 @@ body {
   color: white;
 }
 
-.navigationInnerLI { display: none; }
+.navigationInnerLI  { display: none; }
 
 .navigationLI:hover > .navigationInnerUL > .navigationInnerLI  {
   display: block;
   top: 40px;
   opacity: 1;
 }
+
+/**************************************
+ *******                      *********
+ *******      INNER LINK      *********
+ *******                      *********
+ *************************************/
+.innerLink { text-shadow: none; }
+
+.innerLink:link { color: blue; }
+
+.innerLink:visited { color: purple; }
+
+.innerLink:hover { color: red; }
+
+.innerLink:active { color: green;}
+

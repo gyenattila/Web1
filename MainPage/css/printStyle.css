@@ -1,0 +1,51 @@
+@media print {
+
+  body {
+    background-image: none !important;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  header, 
+  #trailer, 
+  .playerTrailerVideo {
+    display: none !important;
+  }  
+
+  .profilePic {
+    height: 350px !important;
+    width: 20% !important;
+    margin: 0px 10px 10px 0px;
+    padding: 0px;
+  }
+
+  #michaelDeSanta,
+  #franklinClinton,
+  #trevorPhilips {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1, p { text-shadow: none !important; }
+
+  #michaelDeSanta > section > p,
+  #franklinClinton > section > p,
+  #trevorPhilips > section > p {
+    margin: 0px;
+  }
+
+  a[href^="http://"]:after,
+  a[href^="https://"]:after {
+    content: "[" attr(href) "]";
+    color: blue;
+  }
+
+  @page{
+    margin: 2cm;
+  }
+
+  #franklinClinton,
+  #trevorPhilips {
+    page-break-before: always;
+  }
+}

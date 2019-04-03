@@ -27,14 +27,6 @@ h1, h2, h3 { text-align: center; }
   margin-bottom: 20px;
 }
 
-.innerLink:link { color: blue; }
-
-.innerLink:visited { color: purple; }
-
-.innerLink:hover { color: red; }
-
-.innerLink:active { color: green; }
-
 p {
   font-family: sans-serif;
   font-size: 100%;
