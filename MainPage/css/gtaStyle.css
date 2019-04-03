@@ -28,7 +28,7 @@ body {
 
 #trevorPhilips { background-color: rgb(226, 127, 6); }
 
-h1 { 
+h1, h2 { 
   font-family: "Brush Script MT"; 
   color: white;
   text-shadow: 2px 2px 10px black;
