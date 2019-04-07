@@ -1,0 +1,39 @@
+body {
+  background-image: url("../img/rdrBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#gameTrailer,
+#arthurMorgan,
+#dutchVanDerLinde,
+#johnMarston {
+  width: 100%;
+  padding: 5px;
+  background-color: black;
+}
+
+h1, h2 { color: white; }
+
+iframe {
+  width: 100%;
+  height: 550px;
+  border: 0px;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+#arthur,
+#dutch,
+#john {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

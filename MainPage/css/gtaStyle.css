@@ -6,8 +6,6 @@ body {
   background-size: cover;
 }
 
-#mainBody { width: 100%; }
-
 .profilePic {
   float: left;
   height: 500px;

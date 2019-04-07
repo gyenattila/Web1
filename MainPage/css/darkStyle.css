@@ -1,8 +1,4 @@
-body {
-  background-color: black;
-}
-
-#mainBody { width: 100%; }
+body { background-color: black; }
 
 .profilePic {
   float: left;

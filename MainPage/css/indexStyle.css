@@ -6,52 +6,73 @@ body {
   background-size: cover;
 }
 
-#mainBody {
-  width: 100%;
-  opacity: .8;  
-}
+#mainBody { opacity: .8; }
 
-.left,
-.right {
-  height: 300px;
+#playStation,
+#redDeadRedemption,
+#grandTheftAutoV,
+#horizonZeroDawn {
   width: 100%;
   background-color: black;
   color: white;
   text-align: justify;
   overflow: hidden;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-p {
-  font-size: 100%;
-  font-family: sans-serif;
+#playStation:hover {
+  box-shadow: 2px 2px 20px blue;
 }
 
-.left > h1 { text-align: left; }
+#redDeadRedemption:hover {
+  box-shadow: 2px 2px 20px red;
+}
 
-.right > h1  { text-align: right; }
+#grandTheftAutoV:hover {
+  box-shadow: 2px 2px 20px green;
+}
 
-.left > p { margin-right: 30px; }
+#horizonZeroDawn:hover {
+  box-shadow: 2px 2px 20px white;
+}
 
-.right > p { margin-left: 30px; }
+#playStation > h1,
+#grandTheftAutoV > h1 { 
+  text-align: left; 
+}
+
+#redDeadRedemption > h1,
+#horizonZeroDawn > h1  { 
+  text-align: right; 
+}
 
 .leftPicture,
 .rightPicture {
+  float: left;
   height: 300px;
   width: 25%;
-  float: left;
   margin-right: 30px;
   transition: transform 300ms ease-in-out;
 }
 
-.left:hover > .leftPicture,
-.right:hover > .rightPicture {
+.rightPicture {
+  float: right;
+  margin-right: 0px; 
+  margin-left: 30px;
+}
+
+#playStation:hover > .leftPicture,
+#redDeadRedemption:hover > .rightPicture,
+#grandTheftAutoV:hover > .leftPicture,
+#horizonZeroDawn:hover > .rightPicture{
   transition: transform 300ms ease-in-out;
   transform: rotate(360deg);
   border-radius: 100px;
 }
 
-.rightPicture {
-  float: right;
-  margin-right: 0; 
-  margin-left: 30px;
+p {
+  font-size: 120%;
+  font-family: sans-serif;
 }
+
