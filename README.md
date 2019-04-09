@@ -14,25 +14,19 @@
 
 
 ##### Nem hivatalos tananyag
-[W3Schools.com](https://www.w3schools.com) - elérhető HTML, XHTML, CSS és JS tutoriálok interaktív példákkal.  
-
+[W3Schools.com](https://www.w3schools.com) - elérhető HTML, XHTML, CSS és JS és Bootsrap tutoriálok interaktív példákkal.  
 [HTML attribútumok leírással](https://www.w3schools.com/tags/ref_attributes.asp) - beadandó során hasznos lehet, attribútumok részletes leírással + interaktív kód. 
-
-[Validátor](https://validator.w3.org/#validate_by_upload+with_options) - ```More Options``` alatt betudjátok állítani, hogy milyen dokumentim típust szeretnétek validálni.  
-
-
+[Validátor](https://validator.w3.org/#validate_by_upload+with_options) - ```More Options``` alatt beállítható a validálni kívánt dokumentum típusa.  
 [XHTML](https://www.w3schools.com/HTML/html_xhtml.asp) - konveciók, melyekre figyelni kell beadandó írás során.  
-
-[XHTML Cheet Sheet](https://www.w3.org/2010/04/xhtml10-strict.html) - XHTML 1.0 Strict Cheet Sheet  
-
-[Picture Resizer](http://www.picresize.com/#) - kiválasztott képeket fizikailag is le tudjátok kicsnyíteni a segítségével  
-
-[YouTube downloader](https://www.onlinevideoconverter.com/youtube-converter) - kiválasztott videó linkjének beillesztésével le tudjátok tölteni különböző formátumban a videót
+[XHTML Cheet Sheet](https://www.w3.org/2010/04/xhtml10-strict.html) - XHTML 1.0 Strict Cheet Sheet.  
+[Picture Resizer](http://www.picresize.com/#) - képek kicsinyítése fizikailag.  
+[YouTube downloader](https://www.onlinevideoconverter.com/youtube-converter) - kiválasztott videó linkjének beillesztésével letölthető a videó különböző formátumokban.
 ___
 
-#### HTML5 & CSS3 YouTube tutorial
+#### HTML5, CSS3 & Bootstrap YouTube tutorial
 [HTML5](https://www.youtube.com/watch?v=kDyJN7qQETA)  
-[CSS3](https://www.youtube.com/watch?v=CUxH_rWSI1k)
+[CSS3](https://www.youtube.com/watch?v=CUxH_rWSI1k)  
+[Bootstrap](https://www.youtube.com/watch?v=gqOEoUR5RHg)
 
 ___
 
