@@ -1,0 +1,44 @@
+/*
+  this is a comment
+*/
+html, body {
+  /*background-color: rgba(104, 97, 110, .5);*/
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#first-div {
+  width: 50%;
+  float: right;
+}
+
+#second-div {
+  width: 50%;
+}
+
+h1 {
+  color: red;
+}
+
+#first,
+.first-class {
+  color: #777;
+  background-color: aliceblue;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  border-top: 10px yellow solid;
+  margin: 100px 0;
+  padding: 15px;
+}
+
+.first-class {
+  color: #777123;
+  background-color: burlywood;
+  border-top: 10px orange inset;
+}
