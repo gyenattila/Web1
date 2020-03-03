@@ -1,14 +1,13 @@
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
+window.onscroll = () => {
+  const btn = document.getElementById('top-btn');
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementById("myBtn").style.display = "block";
+    btn.style.display = "block";
   } else {
-    document.getElementById("myBtn").style.display = "none";
+    btn.style.display = "none";
   }
-}
+};
 
-function topFunction() {
+document.getElementById('top-btn').addEventListener('click', () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}
+})
