@@ -1,0 +1,43 @@
+header {
+  text-align: center;
+}
+ul > li {
+  list-style-type: square;
+}
+
+ul > li:first-of-type,
+ul > li:last-of-type {
+  color: chartreuse;
+}
+
+ol > li {
+  list-style-type: lower-greek;
+}
+
+ol > li:nth-last-of-type(odd) {
+  color: red;
+}
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: blueviolet;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+#top {
+  text-decoration: none;
+}
