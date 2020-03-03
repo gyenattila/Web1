@@ -1,49 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta lang="en">
-  <meta name="description" content="HTML Weg dev">
-  <meta name="keywords" 	 content="HTML,CSS">
-  <meta name="author" 	 content="Attila Gyen">
+  <!-- Define a description of your web page: -->
+  <meta name="description" content="HTML Web development">
+  <!-- Define keywords for search engines -->
+  <meta name="keywords" content="HTML,CSS">
+  <!-- Define the author of a page: -->
+  <meta name="author" content="Attila Gyen">
+  <!--
+    A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+    The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+    The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+  -->
+  <!-- Setting the viewport to make your website look good on all devices: -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="http://webfejlesztes.inf.elte.hu/feladat/szulovaros.css">
+
+  <style>
+    header {
+      text-align: center;
+    }
+    ul > li {
+      list-style-type: square;
+    }
+
+    ol > li {
+      list-style-type: lower-greek;
+    }
+  </style>
 
   <title>Szülővárosom Los Santos</title>
 </head>
 <body>
-  <header>
-    <center>
-      <h1>This is H1 heading</h1>
-      <h2>This is H2 heading</h2>
-      <h3>This is H3 heading</h3>
-    </center>
-  </header>
+  <!-- https://www.w3schools.com/tags/tag_section.asp -->
+  <section>
+    <!-- https://www.w3schools.com/tags/tag_header.asp -->
+    <header>
+        <!-- https://www.w3schools.com/tags/tag_hn.asp -->
+        <h1>This is H1 heading</h1>
+        <h2>This is H2 heading</h2>
+        <h3>This is H3 heading</h3>
+    </header>
+  </section>
 
-  <article>
+  <section>
+    <h2>List section</h2>
+    <h3>Unordered list</h3>
+    <!-- https://www.w3schools.com/tags/tag_ul.asp -->
     <ul>
       <li>Unordered list 1st item</li>
       <li>Unordered list 2nd item</li>
       <li>Unordered list 3rd item</li>
     </ul>
-  </article>
 
-  <article>
+    <h3>Ordered list</h3>
+    <!-- https://www.w3schools.com/tags/tag_ol.asp -->
     <ol>
       <li>Ordered list 1st item</li>
       <li>Ordered list 2nd item</li>
       <li>Ordered list 3rd item</li>
     </ol>
-  </article>
+  </section>
 
-  <nav>
-    <a href="https://gta.fandom.com/wiki/Los_Santos_(HD_Universe)" target="_blank" alt="Los Santos" title="LS">Link 1</a>
-    <a href="https://www.gtaboom.com/the-real-landmarks-of-gta-5s-los-santos/" target="_blank" alt="Los Santos panorama" title="LS pano">Link 2</a>
-  </nav>
+  <section>
+    <h2>External links</h2>
+    <!-- https://www.w3schools.com/tags/tag_nav.asp -->
+    <nav>
+      <a href="https://gta.fandom.com/wiki/Los_Santos_(HD_Universe)" target="_blank" title="LS">Link 1</a>
+      <a href="https://www.gtaboom.com/the-real-landmarks-of-gta-5s-los-santos/" target="_blank" title="LS pano">Link 2</a>
+    </nav>
+  </section>
 
+  <!-- https://www.w3schools.com/tags/tag_main.asp -->
   <main>
+    <!-- https://www.w3schools.com/tags/tag_article.asp -->
     <article>
+      <h3>Article 1</h3>
+      <!-- https://www.w3schools.com/tags/tag_p.asp -->
       <p>
+        <!--
+          text formatting: https://www.w3schools.com/html/html_formatting.asp
+        -->
         <b>Lorem ipsum dolor sit amet</b>, <strong>consectetur adipiscing elit</strong>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
         pulvinar. Donec ornare risus eu imperdiet congue. Donec tempor accumsan mauris eu mattis. Sed porttitor
@@ -56,6 +95,7 @@
     </article>
 
     <article>
+      <h3>Article 2</h3>
       <p>
         <i>Lorem ipsum dolor sit amet</i>, <em>consectetur adipiscing elit</em>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -69,6 +109,7 @@
     </article>
 
     <article>
+      <h3>Article 3</h3>
       <p>
         <b>Lorem ipsum dolor sit amet</b>, <strong>consectetur adipiscing elit</strong>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -82,6 +123,7 @@
     </article>
 
     <article>
+      <h3>Article 4</h3>
       <p>
         <i>Lorem ipsum dolor sit amet</i>, <em>consectetur adipiscing elit</em>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -95,6 +137,7 @@
     </article>
 
     <article>
+      <h3>Article 5</h3>
       <p>
         <b>Lorem ipsum dolor sit amet</b>, <strong>consectetur adipiscing elit</strong>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -108,6 +151,7 @@
     </article>
 
     <article>
+      <h3>Article 6</h3>
       <p>
         <i>Lorem ipsum dolor sit amet</i>, <em>consectetur adipiscing elit</em>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -121,6 +165,7 @@
     </article>
 
     <article>
+      <h3>Article 7</h3>
       <p>
         <b>Lorem ipsum dolor sit amet</b>, <strong>consectetur adipiscing elit</strong>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -134,6 +179,7 @@
     </article>
 
     <article>
+      <h3>Article 8</h3>
       <p>
         <i>Lorem ipsum dolor sit amet</i>, <em>consectetur adipiscing elit</em>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -147,6 +193,7 @@
     </article>
 
     <article>
+      <h3>Article 9</h3>
       <p>
         <b>Lorem ipsum dolor sit amet</b>, <strong>consectetur adipiscing elit</strong>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -160,6 +207,7 @@
     </article>
 
     <article>
+      <h3>Article 10</h3>
       <p>
         <i>Lorem ipsum dolor sit amet</i>, <em>consectetur adipiscing elit</em>. Aenean a fringilla
         tellus. Praesent tempor accumsan sem, eu accumsan tortor tincidunt at. Aenean vel erat et dui sodales
@@ -171,13 +219,17 @@
         lectus, vel pretium lacus lobortis at.
       </p>
     </article>
-
-    <footer>
-      <time datetime="2019-02-21 11:06">Date when this wonder was made</time>
-      <br>
-      <a href="#top">Back to top</a>
-    </footer>
   </main>
+
+  <!-- https://www.w3schools.com/tags/tag_footer.asp -->
+  <footer>
+    <!-- https://www.w3schools.com/tags/tag_time.asp -->
+    <time datetime="2019-02-21 11:06">Date when this wonder was made</time>
+    <!-- https://www.w3schools.com/tags/tag_br.asp -->
+    <br>
+    <!-- https://www.w3schools.com/tags/tag_a.asp -->
+    <a href="#top">Back to top</a>
+  </footer>
 
 </body>
 </html>
