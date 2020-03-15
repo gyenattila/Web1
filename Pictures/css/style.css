@@ -1,0 +1,10 @@
+figure > img {
+  height: 500px;
+  width: 400px;
+  border-radius: 100px;
+}
+
+figure > figcaption {
+  font-size: 25px;
+  text-align: center;
+}
