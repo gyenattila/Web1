@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="HTML5, CSS3, Audio, Video, iframe">
+  <meta name="author" content="Attila Gyen">
+  <meta name="description" content="Inserting audio and video file + iframe">
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
   <title>Audio & Video</title>
 </head>
 <body>
   <div class="video_audio">
+    <!-- video: https://www.w3schools.com/tags/tag_video.asp -->
+    <!-- controls: https://www.w3schools.com/tags/att_controls.asp -->
     <video controls>
-      <source src="video.mp4" type="video/mp4">
+      <!-- source: https://www.w3schools.com/tags/tag_source.asp -->
+      <source src="video/video.mp4" type="video/mp4">
     </video>
     
     <br>
 
+    <!-- audio: https://www.w3schools.com/tags/tag_audio.asp -->
     <audio controls>
-      <source src="track.mp3" type="audio/mpeg">
+      <source src="audio/track.mp3" type="audio/mpeg">
     </audio>
-  </div> <!--end of video_audio-->
+  </div> <!-- end of video_audio -->
 
+  <!-- iframe: https://www.w3schools.com/tags/tag_iframe.asp -->
   <div class="iframe">
-    <iframe frameborder="0" src="https://imp3juices.com/dmca.php"></iframe>
-    <iframe frameborder="0" src="https://www.sample-videos.com"></iframe>
+    <iframe src="https://imp3juices.com/dmca.php"></iframe>
+    <iframe src="https://imp3juices.com/dmca.php"></iframe>
   </div> <!--end of iframe-->
 </body>
 </html>

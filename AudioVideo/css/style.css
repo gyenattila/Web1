@@ -1,28 +1,24 @@
-body
-{
+body {
   margin: 0px;
 }
 
-video
-{
+video {
   height: 400px;
   width: 600px;
 }
 
-.video_audio
-{
+.video_audio {
   height: 500px;
   width: 100%;
 }
 
-.iframe
-{
+.iframe {
   height: 400px;
   width: 100%;
 }
 
-.iframe > iframe
-{
+.iframe > iframe {
   height: 400px;
   width: 49%;
+  border: 0;
 }
