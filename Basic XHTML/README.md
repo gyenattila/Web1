@@ -1,0 +1,214 @@
+# ```HTML``` és ```XHTML```
+
+
+## Mi az az XHTML?
+
+* ```XHTML``` az ```HTML``` csak ```XML``` formában írva.
+* E __X__ tensible __H__ yper __T__ ext __M__ arkup __L__ anguage
+* Majdnem ugyan az, mint a ```HTML``` csak egy kicsit szigorúbb
+* Szinte az összes böngésző támogatja, a leggyakrabban használtak, mint pl a Google Chrome, Mozilla Firefox, Safari teljes mértékben támogatják.
+
+
+## Miért jó az XHTML?
+
+Nagyon sok weboldal tartalmaz rosszul, helytelenül megírt ```HTML``` kódot. Az alábbi ```HTML``` kód tökéletesen jól működik, noha nem követi a ```HTML``` szabályokat.
+
+```html
+<html>
+<head>
+  <title>This is bad HTML</title>
+<body>
+  <h1>Bad HTML
+  <p>This is a paragraph
+</body>
+```
+
+A mai piac különböző böngésző technológiákból áll. Néhány böngésző számítógépen fut, míg más böngészők mobiltelefonokon vagy más apró eszközökön.A kisebb eszközökn gyakran kevesebb erőforrással rendelkeznek vagy nem tudják interpretálni a rosszul megírt kódot.
+
+Az ```XML``` egy olyan leíró nyelv, ahol a dokumentumnak jól formázottnak kell lennie, ami azt jelenti, hogy tartani kell magát az adott nyelvre vonatkozó szabályokhoz.
+
+Az ```XHTML``` tervezésénél figyelembe vették az ```XML``` szigorúságát és a ```HTML``` nyújtotta lehetőségeket. Tulajdonkáppen az ```XHTML``` az ```HTML``` kód ```XML``` formátumban megvalósítva.
+
+
+## Legfontosabb különbségek a ```HTML```-hez képest
+
+
+### Dokumentum Struktúra
+
+
+* ```XHTML``` esetén a ```DOCTYPE``` attribútum megadása kötelező
+* az ```xmlns``` attribútum megadása a ```<html>``` tagnél kötelező
+* a ```<html>```, ```<head>```, ```<title>```, és a  ```<body>``` tagek megadása kötelező
+
+
+### ```XHTML``` Elemek
+
+
+- [```HTML``` és ```XHTML```](#html-%c3%a9s-xhtml)
+  - [Mi az az XHTML?](#mi-az-az-xhtml)
+  - [Miért jó az XHTML?](#mi%c3%a9rt-j%c3%b3-az-xhtml)
+  - [Legfontosabb különbségek a ```HTML```-hez képest](#legfontosabb-k%c3%bcl%c3%b6nbs%c3%a9gek-a-html-hez-k%c3%a9pest)
+    - [Dokumentum Struktúra](#dokumentum-strukt%c3%bara)
+    - [```XHTML``` Elemek](#xhtml-elemek)
+    - [```XHTML``` Attribútumok](#xhtml-attrib%c3%batumok)
+    - [```<!DOCTYPE ...>``` megadása kötelező](#doctype--megad%c3%a1sa-k%c3%b6telez%c5%91)
+    - [```XHTML``` elemeknek megfelelően beágyazottnak kell lennie](#xhtml-elemeknek-megfelel%c5%91en-be%c3%a1gyazottnak-kell-lennie)
+    - [```XHTML``` elemeket mindig megfelelően le kell zárni, a megfelő záró taggel](#xhtml-elemeket-mindig-megfelel%c5%91en-le-kell-z%c3%a1rni-a-megfel%c5%91-z%c3%a1r%c3%b3-taggel)
+    - [```XHTML``` elemeknek kis betűvel kell lennie írva](#xhtml-elemeknek-kis-bet%c5%b1vel-kell-lennie-%c3%adrva)
+    - [Az ```XHTML``` attribútum neveket is kis betűvel kell írni](#az-xhtml-attrib%c3%batum-neveket-is-kis-bet%c5%b1vel-kell-%c3%adrni)
+    - [Az attribútum értékeket idézőjelek közé kell írni](#az-attrib%c3%batum-%c3%a9rt%c3%a9keket-id%c3%a9z%c5%91jelek-k%c3%b6z%c3%a9-kell-%c3%adrni)
+    - [Az attribútumok értékeinek minimalizálása tilos](#az-attrib%c3%batumok-%c3%a9rt%c3%a9keinek-minimaliz%c3%a1l%c3%a1sa-tilos)
+
+
+### ```XHTML``` Attribútumok
+
+
+* [Az attribútum neveket kis betűvel kell írni](#az-xhtml-attrib%c3%batum-neveket-is-kis-bet%c5%b1vel-kell-%c3%adrni)
+* [Az attribútum értékeket idézőjelek közé kell írni](#az-attrib%c3%batum-%c3%a9rt%c3%a9keket-id%c3%a9z%c5%91jelek-k%c3%b6z%c3%a9-kell-%c3%adrni)
+* [Az attribútúmok értékeinek minimalizálása tilos](#az-attrib%c3%bat%c3%bamok-%c3%a9rt%c3%a9keinek-minimaliz%c3%a1l%c3%a1sa-tilos)
+
+
+### ```<!DOCTYPE ...>``` megadása kötelező
+
+
+Az XHTML dokumentumnak kell, hogy meg legyen adva az XHTML DOCTYPE deklaráció.
+
+A teljes [DOCTYPE](https://www.w3schools.com/tags/tag_doctype.asp) lista itt található.
+
+A ```<html>```, ```<head>```, ```<title>```, and ```<body>``` elemeknek szerepelnie kell és az ```xmlns``` attribútum a ```<html>``` tagen belül kell, hogy definiálja a megfelelő __xml névteret__ (_xml namespace_) a dokumentum számára.
+
+Az alábbi példa egy minimális megvalósítása az XHTML dokumentumnak.
+
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Title of document</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+
+
+### ```XHTML``` elemeknek megfelelően beágyazottnak kell lennie
+
+
+```HTML```-ben elfogadott a nem megfelelő beágyazás is, mint például:
+
+```html
+<b><i>This text is bold and italic</b></i>
+```
+
+```XHTML``` esetében azonban megfelően kell egymásba ágyaznunk a tageket, megfelő sorrendben kell lezárnunk őket:
+
+```html
+<b><i>This text is bold and italic</i></b>
+```
+
+
+### ```XHTML``` elemeket mindig megfelelően le kell zárni, a megfelő záró taggel
+
+
+Helytelen:
+
+```html
+<p>This is a paragraph
+<p>This is another paragraph
+```
+
+Helyes:
+
+```html
+<p>This is a paragraph</p>
+<p>This is another paragraph</p>
+```
+
+Azokat az elemeket, melyeknek nincs külön záró tagje is megfelelően le kell zárni a ```/``` operátor segítségével.
+
+Helytelen:
+
+```html
+A break: <br>
+A horizontal rule: <hr>
+An image: <img src="happy.gif" alt="Happy face">
+```
+
+Helyes:
+
+```html
+A break: <br />
+A horizontal rule: <hr />
+An image: <img src="happy.gif" alt="Happy face" />
+```
+
+
+### ```XHTML``` elemeknek kis betűvel kell lennie írva
+
+
+Helytelen:
+
+```html
+<BODY>
+<P>This is a paragraph</P>
+</BODY>
+```
+
+Helyes:
+
+```html
+<body>
+<p>This is a paragraph</p>
+</body>
+```
+
+### Az ```XHTML``` attribútum neveket is kis betűvel kell írni
+
+Helytelen:
+
+```html
+<table WIDTH="100%">
+```
+
+Helyes:
+
+```html
+<table width="100%">
+```
+
+
+### Az attribútum értékeket idézőjelek közé kell írni
+
+
+Helytelen:
+
+```html
+<table width=100%>
+```
+
+Helyes:
+
+```html
+<table width="100%">
+```
+
+
+### Az attribútumok értékeinek minimalizálása tilos
+
+
+Helytelen:
+
+```html
+<input type="checkbox" name="vehicle" value="car" checked />
+<input type="text" name="lastname" disabled />
+```
+
+Helyes:
+
+```html
+<input type="checkbox" name="vehicle" value="car" checked="checked" />
+<input type="text" name="lastname" disabled="disabled" />
+```

@@ -30,23 +30,22 @@ ___
 
 ___
 
-```
+```html
 <!DOCTYPE html>
-<html>    
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta lang="en">
-<title>*Insert a funny title here*</title>
+  <meta charset="UTF-8">
+  <title>*Insert a funny title here*</title>
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+  <h1>My First Heading</h1>
+  <p>My first paragraph.</p>
 
 </body>
 </html>
 ```
 
-<div style = "text-align: justify">A hallgatóknak a félév során el kell sajátítaniuk a <em><ins>HTML</ins></em> és a <em><ins>CSS<ins></em> alapokat. Feladatuk, hogy a félév végére önálló munkával elkészítsenek egy olyan statikus web oldalt, ami minél jobban kihasználja a <strong>HTML5</strong> és a <strong>CSS3</strong> nyújtotta nyelvi elemeket.<br><strong>Fontos:</strong> a beadott házi feladatokban megvalósított web oldalak legyenek minél jobban akadálymentesítve, továbbá feleljenek meg az előírt kritériumoknak, mint pl. a helyes kontraszt arány vagy a HTML5-ös tag-ek minél pontosabb használata.</div>
+A hallgatóknak a félév során el kell sajátítaniuk a ```HTML``` és a ```CSS``` alapokat. Feladatuk, hogy a félév végére önálló munkával elkészítsenek egy olyan statikus web oldalt, ami minél jobban kihasználja a __HTML5__ és a __CSS3__ nyújtotta nyelvi elemeket.
 
-
+__Fontos__: a beadott házi feladatokban megvalósított weboldalak legyenek minél jobban akadálymentesítve, továbbá feleljenek meg az előírt kritériumoknak, mint pl. a helyes kontraszt arány vagy a HTML5-ös tag-ek minél pontosabb használata.
