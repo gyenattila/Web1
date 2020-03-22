@@ -44,28 +44,18 @@ Az ```XHTML``` tervezésénél figyelembe vették az ```XML``` szigorúságát �
 ### ```XHTML``` Elemek
 
 
-- [```HTML``` és ```XHTML```](#html-%c3%a9s-xhtml)
-  - [Mi az az XHTML?](#mi-az-az-xhtml)
-  - [Miért jó az XHTML?](#mi%c3%a9rt-j%c3%b3-az-xhtml)
-  - [Legfontosabb különbségek a ```HTML```-hez képest](#legfontosabb-k%c3%bcl%c3%b6nbs%c3%a9gek-a-html-hez-k%c3%a9pest)
-    - [Dokumentum Struktúra](#dokumentum-strukt%c3%bara)
-    - [```XHTML``` Elemek](#xhtml-elemek)
-    - [```XHTML``` Attribútumok](#xhtml-attrib%c3%batumok)
-    - [```<!DOCTYPE ...>``` megadása kötelező](#doctype--megad%c3%a1sa-k%c3%b6telez%c5%91)
-    - [```XHTML``` elemeknek megfelelően beágyazottnak kell lennie](#xhtml-elemeknek-megfelel%c5%91en-be%c3%a1gyazottnak-kell-lennie)
-    - [```XHTML``` elemeket mindig megfelelően le kell zárni, a megfelő záró taggel](#xhtml-elemeket-mindig-megfelel%c5%91en-le-kell-z%c3%a1rni-a-megfel%c5%91-z%c3%a1r%c3%b3-taggel)
-    - [```XHTML``` elemeknek kis betűvel kell lennie írva](#xhtml-elemeknek-kis-bet%c5%b1vel-kell-lennie-%c3%adrva)
-    - [Az ```XHTML``` attribútum neveket is kis betűvel kell írni](#az-xhtml-attrib%c3%batum-neveket-is-kis-bet%c5%b1vel-kell-%c3%adrni)
-    - [Az attribútum értékeket idézőjelek közé kell írni](#az-attrib%c3%batum-%c3%a9rt%c3%a9keket-id%c3%a9z%c5%91jelek-k%c3%b6z%c3%a9-kell-%c3%adrni)
-    - [Az attribútumok értékeinek minimalizálása tilos](#az-attrib%c3%batumok-%c3%a9rt%c3%a9keinek-minimaliz%c3%a1l%c3%a1sa-tilos)
+* ```XHTML``` elemeknek megfelelően beágyazottnak kell lennie
+* ```XHTML``` elemeket mindig megfelelően le kell zárni, a megfelő záró taggel
+* ```XHTML``` elemeknek kis betűvel kell lennie írva
+* ```XHTML``` dokumentumnak csak egy gyökér eleme lehet
 
 
 ### ```XHTML``` Attribútumok
 
 
-* [Az attribútum neveket kis betűvel kell írni](#az-xhtml-attrib%c3%batum-neveket-is-kis-bet%c5%b1vel-kell-%c3%adrni)
-* [Az attribútum értékeket idézőjelek közé kell írni](#az-attrib%c3%batum-%c3%a9rt%c3%a9keket-id%c3%a9z%c5%91jelek-k%c3%b6z%c3%a9-kell-%c3%adrni)
-* [Az attribútúmok értékeinek minimalizálása tilos](#az-attrib%c3%bat%c3%bamok-%c3%a9rt%c3%a9keinek-minimaliz%c3%a1l%c3%a1sa-tilos)
+* Az attribútum neveket kis betűvel kell írni
+* Az attribútum értékeket idézőjelek közé kell írni
+* Az attribútúmok értékeinek minimalizálása tilos
 
 
 ### ```<!DOCTYPE ...>``` megadása kötelező
