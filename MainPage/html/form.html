@@ -7,8 +7,6 @@
     <meta name="author" content="Attila Gyen" />
     <meta name="description" content="Simply Web Form" />
 
-    <title>Form</title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--
       CSS FILES
@@ -16,10 +14,7 @@
     <link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="../css/formStyle.css">
 
-    <!--
-      JS FILES
-    -->
-    <script src="../script/slider.js"></script>
+    <title>Form</title>
   </head>
 
   <body>
@@ -68,61 +63,74 @@
 
    <!-- - - - - - - - - - - - - - - - 
 
-      END OF NAVIGATION
+    END OF NAVIGATION
 
   - - - - - - - - - - - - - - - - -->
-      
+
     <div id="mainDiv">
-      <form action="mailto:sajat.email.cim@gmail.com" method="post" name="form" enctype="text/plain">
+      <form action="mailto:sajat.email.cim@valami.vmi" method="post" name="form" enctype="text/plain">
+        <!-- https://www.w3schools.com/tags/tag_fieldset.asp -->
         <fieldset>
+          <!-- https://www.w3schools.com/tags/tag_legend.asp -->
           <legend>Personal information</legend>
           <div class="title">
             <i class="fa fa-user icon"></i>
-            <h3 class="headerHT">
-              <label>First name*</label>
-            </h3> <!--end of FirstName headerHT-->
-          </div> <!--end of title-->
-          <input class="inputField" type="text" name="firstName" placeholder="firstname" required="required" pattern="[A-Za-z]{1,20}" title="Only chacters are allowed" maxlength="20" autofocus="autofocus"> 
+            <h3 class="header-ht">
+              <!-- https://www.w3schools.com/tags/tag_label.asp -->
+              <!-- https://www.w3schools.com/tags/att_label_for.asp -->
+              <label for="firstname">First name</label>
+            </h3>
+            <!--end of FirstName header-ht-->
+          </div>
+          <!--end of title-->
+          <!-- https://www.w3schools.com/tags/tag_input.asp -->
+          <!-- https://www.w3schools.com/html/html_form_attributes.asp -->
+          <input id="firstname" class="input-field" name="firstname" type="text" placeholder="firstname"
+            pattern="[A-Za-z]{1,20}" title="Only chacters are allowed" maxlength="20" autofocus required>
 
           <br>
 
           <div class="title">
-            <i class="fa fa-user icon"></i>	
-            <h3 class="headerHT">
-              <label>Last name*</label>
-            </h3> <!--end of LastName headerHT-->
-          </div> <!--end of title-->
-          <input class="inputField" type="text" name="lastName" placeholder="lastname" required="required" pattern="[A-Za-z]{1,20}" title="Only chacters are allowed" maxlength="20">
-          
+            <i class="fa fa-user icon"></i>
+            <h3 class="header-ht">
+              <label for="lastname">Last name</label>
+            </h3> <!-- end of LastName header-ht -->
+          </div> <!-- end of title -->
+          <input id="lastname" class="input-field" name="lastname" type="text" placeholder="lastname" pattern="[A-Za-z]{1,20}"
+            title="Only characters are allowed" maxlength="20" required>
+
           <br>
 
           <div class="title">
-            <i class="fa fa-envelope icon"></i>	
-            <h3 class="headerHT">
-              <label>E-mail*</label>
-            </h3> <!--end of EMail headerHT-->
-          </div> <!--end of title-->
-          <input class="inputField" type="email" name="email" placeholder="email" required="required" pattern="[a-zA-Z0-9._%+-]+@[a-z]{3,10}+\.[a-z]{2,4}$" maxlength="50">
-          
+            <i class="fa fa-envelope icon"></i>
+            <h3 class="header-ht">
+              <label for="email">E-mail</label>
+            </h3> <!-- end of EMail header-ht -->
+          </div> <!-- end of title -->
+          <input id="email" class="input-field" name="email" type="email" placeholder="email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-z]{3,10}+\.[a-z]{2,4}$" maxlength="50" required>
+
           <br>
 
           <div class="title">
-            <i class="fa fa-key icon"></i>	
-            <h3 class="headerHT">
-              <label>Secret code</label>
-            </h3> <!--end of SecretCode headerHT-->
-          </div> <!--end of title-->
-          <input class="inputField" type="password" name="password" placeholder="secret code" pattern="[1-9]{4}" maxlength="4" required>
-          
+            <i class="fa fa-key icon"></i>
+            <h3 class="header-ht">
+              <label for="secret-code">Secret code</label>
+            </h3> <!-- end of SecretCode header-ht -->
+          </div> <!-- end of title -->
+          <input id="secret-code" class="input-field" name="secret-code" type="password" placeholder="secret code"
+            pattern="[1-9]{4}" maxlength="4" required>
+
           <br>
 
           <div class="title">
-            <i class="fa fa-birthday-cake icon"></i>	
-            <h3 class="headerHT">
+            <i class="fa fa-birthday-cake icon"></i>
+            <h3 class="header-ht">
               <label>Date of birth</label>
-            </h3> <!--end of DateOfBirtd headerHT-->
-          </div> <!--end of title-->
-          <select name="year">
+            </h3> <!-- end of DateOfBirtd header-ht -->
+          </div> <!-- end of title -->
+          <label for="year"></label>
+          <select id="year" name="year">
             <option value="2000">2000</option>
             <option value="2001">2001</option>
             <option value="2002">2002</option>
@@ -133,7 +141,7 @@
             <option value="2007">2007</option>
             <option value="2008">2008</option>
             <option value="2009">2009</option>
-            <option value="2010" selected="selected">2010</option>
+            <option value="2010" selected>2010</option>
             <option value="2011">2011</option>
             <option value="2012">2012</option>
             <option value="2013">2013</option>
@@ -143,9 +151,11 @@
             <option value="2017">2017</option>
             <option value="2018">2018</option>
             <option value="2019">2019</option>
-          </select> <!--end of year-->
+            <option value="2020">2020</option>
+          </select> <!-- end of year -->
 
-          <select name="month">
+          <label for="month"></label>
+          <select id="month" name="month">
             <option value="Jan">Jan</option>
             <option value="Feb">Feb</option>
             <option value="Mar">Mar</option>
@@ -158,9 +168,10 @@
             <option value="Oct">Oct</option>
             <option value="Nov">Nov</option>
             <option value="Dec">Dec</option>
-          </select> <!--end of month-->
+          </select> <!-- end of month -->
 
-          <select name="day">
+          <label for="day"></label>
+          <select id="day" name="day">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -192,101 +203,106 @@
             <option value="29">29</option>
             <option value="30">30</option>
             <option value="31">31</option>
-          </select> <!--end of day-->
+          </select> <!-- end of day -->
 
           <br>
           <br>
 
           <div class="title">
             <i class="fa fa-transgender-alt icon"></i>
-            <h3 class="headerHT">
-              <label>Gender*</label>
-            </h3> <!--end of Gender headerHT-->
-          </div> <!--end of title-->
-          <input type="radio" name="gender" value="male" checked="checked"> 
-          <label class="radioBtn">Male </label> 
+            <h3 class="header-ht">
+              <label>Gender</label>
+            </h3>
+            <!--end of Gender header-ht-->
+          </div>
+          <!--end of title-->
+          <input id="male" name="male" type="radio" value="male" checked>
+          <label class="radio-btn" for="male">Male</label>
 
           <br>
 
-          <input type="radio" name="gender" value="felmale">
-          <label class="radioBtn">Female </label> 
+          <input id="female" name="female" type="radio" value="felmale">
+          <label class="radio-btn" for="female">Female</label>
 
           <br>
 
-          <input type="radio" name="gender" value="other">
-          <label class="radioBtn"> Other </label>
+          <input id="other" name="other" type="radio" value="other">
+          <label class="radio-btn" for="other">Other</label>
 
           <br>
-        </fieldset> <!--end of "Personal information" fieldset"-->
+        </fieldset> <!-- end of "Personal information" fieldset" -->
 
         <fieldset>
           <legend>Hobby</legend>
           <div class="title">
             <i class="fa fa-comments icon"></i>
-            <h3 class="headerHT">
+            <h3 class="header-ht">
               <label>Select your favourite</label>
-            </h3> <!--end of SelectYourFavourite headerHT-->
-          </div> <!--end of title-->
-          <input type="checkbox" name="sport" value="run" checked="checked">
-          <label class="checkBoxText"> Runing </label> 
+            </h3> <!-- end of SelectYourFavourite header-ht -->
+          </div> <!-- end of title -->
+          <input id="run" name="run" type="checkbox" value="run" checked>
+          <label class="check-box-text" for="run">Runing</label>
 
           <br>
 
-          <input type="checkbox" name="sport" value="highjack">
-          <label class="checkBoxText"> Highjacking </label> 
+          <input id="highjack" name="highjack" type="checkbox" value="highjack">
+          <label class="check-box-text" for="highjack">Highjacking</label>
 
           <br>
 
-          <input type="checkbox" name="sport" value="swim">
-          <label class="checkBoxText"> Swimming </label>
+          <input id="swim" name="swim" type="checkbox" value="swim">
+          <label class="check-box-text" for="swim">Swimming</label>
 
           <br>
 
-          <input type="checkbox" name="sport" value="bike">
-          <label class="checkBoxText"> Biking </label> 
+          <input id="bike" name="bike" type="checkbox" value="bike">
+          <label class="check-box-text" for="bike">Biking</label>
 
           <br>
 
           <div class="title">
             <i class="fa fa-comments icon"></i>
-            <h3 class="headerHT">
+            <h3 class="header-ht">
               <label>How often do you do?</label>
-            </h3> <!--end of HowOften headerHT-->
-          </div> <!--end of title-->
-          <input type="radio" name="activity" value="once a week" checked="checked"> 
-          <label class="radioBtn"> Once a week </label> 
+            </h3> <!-- end of HowOften header-ht -->
+          </div> <!-- end of title -->
+          <input id="once-a-week" name="once-a-week" type="radio" value="once a week" checked>
+          <label class="radio-btn" for="once-a-week">Once a week</label>
 
           <br>
 
-          <input type="radio" name="activity" value="twice a week">
-          <label class="radioBtn"> Twice a week </label> 
+          <input id="twice-a-week" name="twice-a-week" type="radio" value="twice a week">
+          <label class="radio-btn" for="twice-a-week">Twice a week</label>
 
           <br>
 
-          <input type="radio" name="activity" value="three or more">
-          <label class="radioBtn"> 3 or more times/week </label> 
+          <input id="three-or-more-times" name="three-or-more-times" type="radio" value="three or more">
+          <label class="radio-btn" for="three-or-more-times">3 or more times/week</label>
 
           <br>
-        </fieldset> <!--end of "Hobby" fieldset"-->
+        </fieldset> <!-- end of "Hobby" fieldset" -->
 
         <fieldset>
           <legend>Leave a message</legend>
           <div class="title">
             <i class="fa fa-comments icon"></i>
-            <h3 class="headerHT">
-              <label>Note</label>
-            </h3>	<!--end of Note headerHT-->
-          </div> <!--end of title-->
-          <textarea rows="10" cols="63" placeholder="..." name="message" maxlength="1024"></textarea> 
-        </fieldset> <!--end of "Message" fieldset"-->
+            <h3 class="header-ht">
+              <label for="note">Note</label>
+            </h3> <!-- end of Note header-ht -->
+          </div> <!-- end of title -->
+          <textarea id="note" name="note" rows="10" cols="63" placeholder="..." maxlength="1024">
+                </textarea>
+        </fieldset> <!-- end of "Leave a message" fieldset" -->
 
         <br>
 
-        <input class="submitBtn" type="submit" value="Submit">
-        <input class="resetBtn" type="reset" value="Reset">
-      </form> <!--end of form-->
-      
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <input id="submit-btn" type="submit" value="Submit">
+        <input id="reset-btn" type="reset" value="Reset">
+      </form> <!-- end of form -->
+
+      <button id="top-btn" title="Go to top">Top</button>
     </div> <!--end of main div-->
+    <!-- JS FILES -->
+    <script src="../script/slider.js"></script>
   </body>
 </html>

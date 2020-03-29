@@ -6,6 +6,11 @@ body {
   background-size: cover;
 }
 
+#jumpLink {
+  position: absolute;
+  top: -100px;
+}
+
 .profilePic {
   float: left;
   height: 500px;
