@@ -1,0 +1,42 @@
+#jumbotron{
+    background-image: url("../img/bootstrapTwitterBG.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 800px;
+}
+
+@media only screen and (max-width: 1400px) {
+    #jumbotron {
+        background-image: none;
+        height: 0px;
+    }
+}
+
+.h3-black {
+  color: black;
+}
+
+.h3-white {
+  color: white;
+}
+
+.h3-black,
+.h3-white {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.p-black {
+  color: black;
+  font-size: 22px;
+}
+
+.p-white {
+  color: white;
+  font-size: 22px;
+}
